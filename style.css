@@ -1,0 +1,19 @@
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px lime;
+    }
+    to{
+        box-shadow: 1px 1px 38px fuchsia;
+    }
+}
+
+#thing:hover{
+    background-color: firebrick;
+}
+
